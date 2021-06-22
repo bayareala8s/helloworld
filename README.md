@@ -17,7 +17,7 @@ curl http://localhost:9002
 curl http://localhost:9003
 
 
-#Push to Docker
+# Push to Docker
 
 docker login
 
@@ -26,7 +26,7 @@ docker tag helloworld:0.0.1-SNAPSHOT bayareala8s/helloworld:0.0.1-SNAPSHOT
 docker push bayareala8s/helloworld:0.0.1-SNAPSHOT
 
 
-$Push to AWS ECR
+# Push to AWS ECR
 Retrieve an authentication token and authenticate your Docker client to your registry.
 Use the AWS CLI:
 
